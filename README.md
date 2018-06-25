@@ -3,7 +3,7 @@ This is a project for CmpE 250, Data Structures and Algorithms, Fall 2017.
 
 You are a businessman who wants to build new Starbucks in Etiler. There
 are two types of employees in Starbucks, one of them is cashier who takes the
-order of the customer and the other one is barista who prepares the coee
+order of the customer and the other one is barista who prepares the coffee
 for the customer.
 There are two different models in Starbucks. Each model has N cashiers
 and N/3 baristas(N is divisible by 3 in examples). First model has one queue
@@ -24,16 +24,16 @@ statistics for each model:
 # How to compile
 In a terminal, call commands:
 
->> cmake CMakeLists.txt
+\> cmake CMakeLists.txt
 
->> make
+\> make
 
 OR
 
->> cmake CMakeLists.txt && make
+\> cmake CMakeLists.txt && make
 
 Make sure the executable is produced.
 
 Then you can test the project with the command:
 
->> ./project2 inputFile outputFile
+\> ./project2 inputFile outputFile
